@@ -1,0 +1,80 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Century Gothic'
+}
+
+.container{
+    width: 55%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+    padding: 4%;
+}
+
+header{
+    text-align: center;
+}
+.logo{
+    width: 190px;
+}
+.logo-text{
+    color: rgb(13, 230, 45);
+    font-size: 27px;
+    margin: 6px
+}
+
+nav{
+    text-align: center;
+    font-size: 9px;
+    background-color: rgb(17, 216, 47);
+    padding: 6px;
+    width: 90%;
+    margin: auto;
+}
+
+main{
+    width: 91%;
+    padding: 21px;
+    margin: auto;
+}
+main section{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.selezione-monopattino{
+    display: inline-block;
+    font-size: 21px;
+    color:white;
+} 
+.posizione-monopattino{
+    font-size: 15px;
+    color:white;
+    padding: 3px;
+}
+.arrow::after{
+    content: "\21A6";
+}
+.stato-carica{
+    font-size: 15px;
+    color:white;
+    padding: 3px;
+}
+.carica-media{
+    background-color: rgb(255, 179, 0);
+    width: 40%;
+    border-radius: 5px;
+    padding: 12px;
+}
+.carica-alta{
+    background-color: rgb(13, 230, 45);
+    width: 70%;
+    border-radius: 5px;
+    padding: 12px;
+}
+.carica-bassa{
+    background-color: rgb(191, 53, 53);
+    width: 20%;
+    border-radius: 5px;
+    padding: 12px;
+}
